@@ -22,10 +22,3 @@ def fibonacci_sequence(n):
     
     return fib_sequence
 
-# Example usage
-if __name__ == "__main__":
-    # Test with different values of n
-    test_values = [0, 1, 5, 10]
-    for n in test_values:
-        result = fibonacci_sequence(n)
-        print(f"First {n} Fibonacci numbers: {result}")
